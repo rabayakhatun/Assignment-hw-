@@ -1,0 +1,60 @@
+body {
+  background-color:   #fdfefe  ;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #e1fcfe;
+  color: #fff;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color:#DAF7A6;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #000;
+  color: #fff;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+.Politics {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.Gaming_voice {
+  background-color: ;
+  color: ;
+  text-align: left;
+}
+
+footer{
+  background-color: #191970;
+  color: #fff;
+  text-align: left;
+  padding: 3px;
+}
